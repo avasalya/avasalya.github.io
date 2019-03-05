@@ -10,7 +10,11 @@
      font-weight: 300;
      font-size: 18px;
      color: #455;
-     
+     /*height:100%;
+     width:100%;
+     padding:0;
+     margin:0;
+    */ 
      -webkit-font-smoothing: antialiased;
      -webkit-overflow-scrolling: touch;
  }
@@ -154,8 +158,8 @@
  
  #headerwrap {
      background: url(../img/main.jpg) no-repeat center top;
-     margin-top: 80px;
-     padding-top: 40px;
+     margin-top: 0px;
+     padding-top:0px;
      text-align: center;
      background-attachment: relative;
      background-position: center center;
