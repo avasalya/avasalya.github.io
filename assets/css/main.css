@@ -185,6 +185,11 @@
      /* z-index: 10; */
  }
  
+ #headerwrap h2 {
+     font-size: 30px;
+     color: yellow;
+ }
+
  #headerwrap h3 {
      font-size: 30px;
      color: white;
