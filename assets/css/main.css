@@ -134,8 +134,8 @@
      display: block;
      font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
      text-decoration: none;
-     padding: 18px 20px 18px 20px;
-     border-left: 10px solid #222;
+     padding: -25px 20px 18px 20px;
+     border-left: 1px solid #222;
  }
  
  #section-topbar ul#nav a:hover {
@@ -163,15 +163,13 @@
  
  #headerwrap {
      background: url(../img/main.jpg) no-repeat center top;
-     /* background: url(../img/handover.jpg) no-repeat center top; */
-     /* background: url(../img/handoverWalkOneHand.png) no-repeat center top; */
      
      height:auto;
      min-height: 1000px;
      width: auto;
      max-width:100%;
      margin-top: 0px;
-     padding-top:0px;
+     padding-top: 100px;
      text-align: center;
      background-attachment: relative;
      background-position: center center;
