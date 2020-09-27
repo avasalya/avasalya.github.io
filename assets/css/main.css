@@ -8,7 +8,7 @@
      background-color: #f2f2f2;
      font-family: "Lato";
      font-weight: 300;
-     font-size: 18px;
+     font-size: 22px;
      color: #455;
      height:100%;
      width:100%;
@@ -38,6 +38,7 @@
      line-height: 28px;
      margin-bottom: 25px;
      text-align: justify;
+     /* font-size: larger; */
      margin-left: 20px;
      margin-right: 20px;
  }
@@ -123,7 +124,7 @@
      *display: inline;
  }
  
- #section-topbar ul#nav > li {
+#section-topbar ul#nav > li {
      display: block;
      float: left;
      padding: 0;
@@ -134,7 +135,7 @@
      font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
      text-decoration: none;
      padding: 18px 20px 18px 20px;
-     border-left: 1px solid #222;
+     border-left: 10px solid #222;
  }
  
  #section-topbar ul#nav a:hover {
@@ -162,6 +163,9 @@
  
  #headerwrap {
      background: url(../img/main.jpg) no-repeat center top;
+     /* background: url(../img/handover.jpg) no-repeat center top; */
+     /* background: url(../img/handoverWalkOneHand.png) no-repeat center top; */
+     
      height:auto;
      min-height: 1000px;
      width: auto;
@@ -192,7 +196,7 @@
  }
  
  #headerwrap h2 {
-     font-size: 30px;
+     font-size: 50px;
      color: yellow;
  }
 
