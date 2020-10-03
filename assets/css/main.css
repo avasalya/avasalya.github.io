@@ -3,7 +3,7 @@
  *
  * Version: 1.0
  */
- 
+
  body {
      background-color: #f2f2f2;
      font-family: "Lato";
@@ -16,12 +16,21 @@
      width:100%;
      padding:0;
      margin:0;
-    */ 
+    */
+    /* Global values */
+    /* padding: inherit; */
+    /* padding: initial; */
+    /* padding: unset; */
      -webkit-font-smoothing: antialiased;
      -webkit-overflow-scrolling: touch;
  }
+
+ html {
+    scroll-behavior: smooth;
+  }
+  
  /* Titles */
- 
+
  h1,
  h2,
  h3,
@@ -33,7 +42,7 @@
      color: #333;
  }
  /* Paragraph & Typographic */
- 
+
  p {
      line-height: 28px;
      margin-bottom: 25px;
@@ -42,12 +51,12 @@
      margin-left: 20px;
      margin-right: 20px;
  }
- 
+
  .centered {
      text-align: center;
  }
  /* Links */
- 
+
  a {
      color: #f85c37;
      word-wrap: break-word;
@@ -57,14 +66,14 @@
      -o-transition: color 0.1s ease-in, background 0.1s ease-in;
      transition: color 0.1s ease-in, background 0.1s ease-in;
  }
- 
+
  a:hover,
  a:focus {
      color: #7b7b7b;
      text-decoration: none;
      outline: 0;
  }
- 
+
  a:before,
  a:after {
      -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -73,7 +82,7 @@
      -o-transition: color 0.1s ease-in, background 0.1s ease-in;
      transition: color 0.1s ease-in, background 0.1s ease-in;
  }
- 
+
  hr {
      display: block;
      height: 1px;
@@ -85,24 +94,24 @@
  /*---------------------------------------------------
 	3.1 Topbar
 ---------------------------------------------------*/
- 
+
  #section-topbar {
      position: fixed;
      top: 0;
      left: 0;
      right: 0;
      z-index: 10000;
-     overflow: visible;
+     overflow: auto;
      /*width: 100px;*/
      font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
- 
+
  #section-topbar a {
      color: #fff;
  }
- 
+
  #topbar-inner {
-     background: #111;
+     background: rgb(5, 177, 245);
      line-height: 0;
      text-align: center;
      width: 100%;
@@ -112,10 +121,10 @@
 
 	By default, top navigation bar uses "fixed" position
 */
- 
+
  #section-topbar ul#nav {
      display: inline-block;
-     position: relative;
+     position: center;
      margin: 0;
      padding: 0;
      border-right: 1px solid #222;
@@ -123,36 +132,37 @@
      zoom: 1;
      *display: inline;
  }
- 
+
 #section-topbar ul#nav > li {
      display: block;
      float: left;
      padding: 0;
  }
- 
+
  #section-topbar ul#nav a {
      display: block;
      font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
      text-decoration: none;
-     padding: -25px 20px 18px 20px;
      border-left: 1px solid #222;
+     /* top | right | bottom | left */
+     padding: 5px 2em 5px 2em;
  }
- 
+
  #section-topbar ul#nav a:hover {
      background: #222;
      text-decoration: none;
      border-left: 1px solid #111;
  }
- 
+
  #section-topbar ul#nav .active a {
      background: #44bbaa;
      border-left: 1px solid #111;
  }
- 
+
  #section-topbar ul#nav .active a:hover {
      background: #44bbaa;
  }
- 
+
  #section-topbar i {
      font-size: 25px;
  }
@@ -160,10 +170,10 @@
 	SECTION WRAPS
 ---------------------------------------------------*/
  /* Header Wrap */
- 
+
  #headerwrap {
      background: url(../img/main.jpg) no-repeat center top;
-     
+
      height:auto;
      min-height: 1000px;
      width: auto;
@@ -182,7 +192,7 @@
      -o-background-size: cover;
      background-size: cover;
  }
- 
+
  #headerwrap h1 {
      font-size: 80px;
      color: white;
@@ -192,7 +202,7 @@
      /* width: 100%; */
      /* z-index: 10; */
  }
- 
+
  #headerwrap h2 {
      font-size: 50px;
      color: yellow;
@@ -203,20 +213,20 @@
      color: white;
  }
  /* Intnro Wrap */
- 
+
  #intro   {
-    
+
      background: #2c3e50;
      padding-top: 60px;
      padding-bottom: 60px;
      color: white;
  }
- 
+
  #intro h5,
  p {
      color: white;
  }
- 
+
  #intro i {
      color: white;
      font-size: 20px;
@@ -233,65 +243,65 @@
 #skillswrap h5, p {
 	color: white;
 } */
- 
+
  #footwrap {
      background: #EE4F4F;
      padding-top: 50px;
      padding-bottom: 50px;
  }
- 
+
  #footwrap p {
      color: white;
  }
- 
+
  #footwrap h5 {
      color: white;
  }
- 
+
  #footwrap t {
      font-weight: 700;
  }
- 
+
  #footwrap i {
      padding-right: 8px;
      color: #1abc9c;
  }
  /* Copyright Wrap */
- 
+
  #c {
      background: #222222;
      padding-top: 15px;
      text-align: justify;
  }
- 
+
  #c p {
      color: white
  }
  /* Global Values */
- 
+
  .desc {
      padding-top: 50px;
  }
- 
+
  .desc p {
      color: #2f2f2f;
  }
- 
+
  .desc t {
      color: #34495e;
      font-weight: 700;
  }
- 
+
  .desc imp {
      padding: 6px;
      color: white;
      background: #34495e;
  }
- 
+
  .desc more {
      color: #95a5a6;
  }
- 
+
  sm {
      font-size: 12px;
  }
