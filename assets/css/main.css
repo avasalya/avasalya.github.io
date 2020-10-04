@@ -175,15 +175,17 @@
      /* background: url(../img/main.jpg) no-repeat center top; */
      /* background: url(../img/hr-rr.png) no-repeat center top; */
      /* background: url(../img/puli2.jpg) no-repeat center top; */
-     background: url(../img/handover.png) no-repeat center top;
+     /* background: url(../img/handover.png) no-repeat center top; */
+     /* background: url(../img/handover.jpg) no-repeat center top; */
+     background: url(../img/me.png) no-repeat center top;
      /* background: url(../img/ppt.jpg) no-repeat center top; */
 
      height:auto;
      min-height: 1000px;
      width: auto;
      max-width:100%;
-     margin-top: 0px;
-     padding-top: 300px;
+     margin-top: 10px;
+     padding-top: 40px;
      text-align: center;
      background-attachment: relative;
      background-position: center center;
@@ -198,8 +200,8 @@
  }
 
  #headerwrap h1 {
-     font-size: 80px;
-     color: rgb(252, 146, 7);
+     font-size: 70px;
+     color: rgb(255, 159, 32);
      /* position: fixed; */
      /* height: 20px; */
      /* top: 0; */
@@ -214,7 +216,7 @@
 
  #headerwrap h3 {
      font-size: 30px;
-     color: white;
+     color: rgb(0, 0, 0);
  }
  /* Intnro Wrap */
 
