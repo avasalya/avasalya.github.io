@@ -172,7 +172,11 @@
  /* Header Wrap */
 
  #headerwrap {
-     background: url(../img/main.jpg) no-repeat center top;
+     /* background: url(../img/main.jpg) no-repeat center top; */
+     /* background: url(../img/hr-rr.png) no-repeat center top; */
+     /* background: url(../img/puli2.jpg) no-repeat center top; */
+     background: url(../img/handover.png) no-repeat center top;
+     /* background: url(../img/ppt.jpg) no-repeat center top; */
 
      height:auto;
      min-height: 1000px;
@@ -195,7 +199,7 @@
 
  #headerwrap h1 {
      font-size: 80px;
-     color: white;
+     color: rgb(252, 146, 7);
      /* position: fixed; */
      /* height: 20px; */
      /* top: 0; */
